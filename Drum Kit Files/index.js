@@ -5,14 +5,22 @@ for(var i=0; i<document.querySelectorAll(".drum").length;i++)
     document.querySelectorAll(".drum")[i].addEventListener("click", function(){
         var key=this.innerHTML;
         sound(key);
+        animate(key);
     });
 }
 document.addEventListener("keypress", function(event) {
 
     sound(event.key);
-      
+    animate(event.key);     
 });
 
+function animate(key){
+    var curr=document.querySelector("."+key);
+    curr.classList.add("press");
+    setTimeout(function() {
+        curr.classList.remove("press");
+    },150);
+}
 
 function sound(key){
     switch (key) {
