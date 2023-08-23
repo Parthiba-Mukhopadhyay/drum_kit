@@ -9,7 +9,8 @@ for(var i=0; i<document.querySelectorAll(".drum").length;i++)
 }
 document.addEventListener("keypress", function(event) {
 
-    sound(event.key);  
+    sound(event.key);
+      
 });
 
 
