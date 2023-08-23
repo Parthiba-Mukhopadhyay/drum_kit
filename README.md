@@ -1,7 +1,5 @@
 # Drum Kit
 
-![Drum Kit Preview](drum-kit-preview.png)
-
 The Drum Kit is a fun and interactive web application that allows users to play virtual drum sounds by pressing corresponding keys on their keyboard. This project showcases the power of HTML, CSS, and JavaScript in creating an engaging and user-friendly musical experience.
 
 ## Features
